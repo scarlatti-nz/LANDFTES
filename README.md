@@ -16,21 +16,13 @@ This file documents the steps needed to get the OLW Labour and Land-use Dashboar
 * Configuration
 * In order to run the dashboard, you will need to create a Conda environment with dash installed.
 * Occassionally there are issues installing dash-bootstrap-components, if you have this issue, run "pip install dash-bootstrap-components"
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
-
-### Contribution guidelines
-
-* Writing tests
-* Code review
-* Other guidelines
 
 ### Who do I talk to?
 
-* Repo owner or admin
-* Other community or team contact
+Please contact Kenny Bell (kenny.bell@scarlatti.co.nz) with any questions
+
+### Disclaimer
+While every effort has been made to ensure the information in this dashboard is accurate, Scarlatti/Our Land and Water does not accept any responsibility or liability for error of fact, omission, interpretation or opinion that may be present, nor for the consequences of any decisions based on this information.
 
 ### Installation Guide
 
