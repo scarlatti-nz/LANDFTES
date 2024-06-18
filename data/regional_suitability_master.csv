@@ -1,0 +1,913 @@
+,region,land_use,total_suitability
+1,Auckland,Apple,Suitable - already grown
+2,Auckland,Apricot,Suitable - already grown
+3,Auckland,Arable Crop,Not enough information to exclude
+4,Auckland,Avocado,Suitable - already grown
+5,Auckland,Barley,Not enough information to exclude
+6,Auckland,Barley (grain),Not enough information to exclude
+7,Auckland,Beetroot,Not enough information to exclude
+8,Auckland,Blueberry,Suitable - already grown
+9,Auckland,Blueberry (HyperFarm),Not enough information to exclude
+10,Auckland,Broccoli,Not enough information to exclude
+11,Auckland,Cabbage,Not enough information to exclude
+12,Auckland,Carrot,Not enough information to exclude
+13,Auckland,Cauliflower,Not enough information to exclude
+14,Auckland,Cherry (CL),Suitable - already grown
+15,Auckland,Cherry (HyperFarm),Not enough information to exclude
+16,Auckland,Cherry (UFO),Suitable - already grown
+17,Auckland,Chestnut (Placeholder),Not enough information to exclude
+18,Auckland,Commercial Forest,Not enough information to exclude
+19,Auckland,Dairy,Not enough information to exclude
+20,Auckland,Dairy Goat,Not enough information to exclude
+21,Auckland,Field Pea,Not enough information to exclude
+22,Auckland,Forage Oat,Not enough information to exclude
+23,Auckland,Grape,Suitable - already grown
+24,Auckland,Honey-Manuka (Placeholder),Not enough information to exclude
+25,Auckland,Hops,Suitable - already grown
+26,Auckland,Kale,Not enough information to exclude
+27,Auckland,Kiwifruit (Gold),Suitable - already grown
+28,Auckland,Kiwifruit (Green),Suitable - already grown
+29,Auckland,Kiwifruit (HyperFarm),Not enough information to exclude
+30,Auckland,Lemon (Meyer),Suitable - already grown
+31,Auckland,Lemon (Yen Ben),Suitable - already grown
+32,Auckland,Lettuce,Not enough information to exclude
+33,Auckland,Macadamia,Suitable - already grown
+34,Auckland,Maize,Suitable - WWO
+35,Auckland,Mandarin (Encore),Suitable - already grown
+36,Auckland,Mandarin (Satsuma),Suitable - already grown
+37,Auckland,Native Bush,Not enough information to exclude
+38,Auckland,Native regen (Placeholder),Not enough information to exclude
+39,Auckland,Nectarine,Suitable - already grown
+40,Auckland,Onion,Suitable - already grown
+41,Auckland,Orange (Navel),Suitable - already grown
+42,Auckland,Orange (Valencia),Suitable - already grown
+43,Auckland,Pea,Not enough information to exclude
+44,Auckland,Peach,Suitable - already grown
+45,Auckland,Potato (Fresh Potato),Suitable - already grown
+46,Auckland,Potato (Process Potato),Suitable - already grown
+47,Auckland,Potato (Seed Potato),Not enough information to exclude
+48,Auckland,Potato (Summer Potato),Not enough information to exclude
+49,Auckland,Ryegrass Seed,Not enough information to exclude
+50,Auckland,Sheep/beef,Not enough information to exclude
+51,Auckland,Spinach,Not enough information to exclude
+52,Auckland,Squash,Suitable - already grown
+53,Auckland,Sweetcorn,Not enough information to exclude
+54,Auckland,Tomato,Not enough information to exclude
+55,Auckland,Truffle (Placeholder),Not enough information to exclude
+56,Auckland,Vining Pea,Suitable - WWO
+57,Auckland,Wheat,Suitable - WWO
+58,Bay of Plenty,Apple,Suitable - already grown
+59,Bay of Plenty,Apricot,Suitable - already grown
+60,Bay of Plenty,Arable Crop,Not enough information to exclude
+61,Bay of Plenty,Avocado,Suitable - already grown
+62,Bay of Plenty,Barley,Not enough information to exclude
+63,Bay of Plenty,Barley (grain),Not enough information to exclude
+64,Bay of Plenty,Beetroot,Not enough information to exclude
+65,Bay of Plenty,Blueberry,Suitable - already grown
+66,Bay of Plenty,Blueberry (HyperFarm),Not enough information to exclude
+67,Bay of Plenty,Broccoli,Not enough information to exclude
+68,Bay of Plenty,Cabbage,Not enough information to exclude
+69,Bay of Plenty,Carrot,Not enough information to exclude
+70,Bay of Plenty,Cauliflower,Not enough information to exclude
+71,Bay of Plenty,Cherry (CL),Suitable - already grown
+72,Bay of Plenty,Cherry (HyperFarm),Not enough information to exclude
+73,Bay of Plenty,Cherry (UFO),Suitable - already grown
+74,Bay of Plenty,Chestnut (Placeholder),Not enough information to exclude
+75,Bay of Plenty,Commercial Forest,Not enough information to exclude
+76,Bay of Plenty,Dairy,Not enough information to exclude
+77,Bay of Plenty,Dairy Goat,Not enough information to exclude
+78,Bay of Plenty,Field Pea,Not enough information to exclude
+79,Bay of Plenty,Forage Oat,Not enough information to exclude
+80,Bay of Plenty,Grape,Suitable - already grown
+81,Bay of Plenty,Honey-Manuka (Placeholder),Not enough information to exclude
+82,Bay of Plenty,Hops,Suitable - already grown
+83,Bay of Plenty,Kale,Not enough information to exclude
+84,Bay of Plenty,Kiwifruit (Gold),Suitable - already grown
+85,Bay of Plenty,Kiwifruit (Green),Suitable - already grown
+86,Bay of Plenty,Kiwifruit (HyperFarm),Not enough information to exclude
+87,Bay of Plenty,Lemon (Meyer),Suitable - already grown
+88,Bay of Plenty,Lemon (Yen Ben),Suitable - already grown
+89,Bay of Plenty,Lettuce,Not enough information to exclude
+90,Bay of Plenty,Macadamia,Suitable - already grown
+91,Bay of Plenty,Maize,Suitable - WWO
+92,Bay of Plenty,Mandarin (Encore),Suitable - already grown
+93,Bay of Plenty,Mandarin (Satsuma),Suitable - already grown
+94,Bay of Plenty,Native Bush,Not enough information to exclude
+95,Bay of Plenty,Native regen (Placeholder),Not enough information to exclude
+96,Bay of Plenty,Nectarine,Suitable - already grown
+97,Bay of Plenty,Onion,Suitable - already grown
+98,Bay of Plenty,Orange (Navel),Suitable - already grown
+99,Bay of Plenty,Orange (Valencia),Suitable - already grown
+100,Bay of Plenty,Pea,Not enough information to exclude
+101,Bay of Plenty,Peach,Suitable - already grown
+102,Bay of Plenty,Potato (Fresh Potato),Suitable - already grown
+103,Bay of Plenty,Potato (Process Potato),Suitable - already grown
+104,Bay of Plenty,Potato (Seed Potato),Not enough information to exclude
+105,Bay of Plenty,Potato (Summer Potato),Not enough information to exclude
+106,Bay of Plenty,Ryegrass Seed,Not enough information to exclude
+107,Bay of Plenty,Sheep/beef,Not enough information to exclude
+108,Bay of Plenty,Spinach,Not enough information to exclude
+109,Bay of Plenty,Squash,Not enough information to exclude
+110,Bay of Plenty,Sweetcorn,Not enough information to exclude
+111,Bay of Plenty,Tomato,Not enough information to exclude
+112,Bay of Plenty,Truffle (Placeholder),Not enough information to exclude
+113,Bay of Plenty,Vining Pea,Suitable - WWO
+114,Bay of Plenty,Wheat,Suitable - WWO
+115,Canterbury,Apple,Suitable - already grown
+116,Canterbury,Apricot,Suitable - already grown
+117,Canterbury,Arable Crop,Not enough information to exclude
+118,Canterbury,Avocado,Unsuitable
+119,Canterbury,Barley,Not enough information to exclude
+120,Canterbury,Barley (grain),Not enough information to exclude
+121,Canterbury,Beetroot,Suitable - already grown
+122,Canterbury,Blueberry,Suitable - already grown
+123,Canterbury,Blueberry (HyperFarm),Not enough information to exclude
+124,Canterbury,Broccoli,Not enough information to exclude
+125,Canterbury,Cabbage,Not enough information to exclude
+126,Canterbury,Carrot,Not enough information to exclude
+127,Canterbury,Cauliflower,Not enough information to exclude
+128,Canterbury,Cherry (CL),Suitable - already grown
+129,Canterbury,Cherry (HyperFarm),Not enough information to exclude
+130,Canterbury,Cherry (UFO),Suitable - already grown
+131,Canterbury,Chestnut (Placeholder),Not enough information to exclude
+132,Canterbury,Commercial Forest,Not enough information to exclude
+133,Canterbury,Dairy,Not enough information to exclude
+134,Canterbury,Dairy Goat,Not enough information to exclude
+135,Canterbury,Field Pea,Suitable - already grown
+136,Canterbury,Forage Oat,Not enough information to exclude
+137,Canterbury,Grape,Suitable - already grown
+138,Canterbury,Honey-Manuka (Placeholder),Not enough information to exclude
+139,Canterbury,Hops,Suitable - already grown
+140,Canterbury,Kale,Not enough information to exclude
+141,Canterbury,Kiwifruit (Gold),Suitable - WWO
+142,Canterbury,Kiwifruit (Green),Unsuitable
+143,Canterbury,Kiwifruit (HyperFarm),Not enough information to exclude
+144,Canterbury,Lemon (Meyer),Suitable - already grown
+145,Canterbury,Lemon (Yen Ben),Suitable - already grown
+146,Canterbury,Lettuce,Not enough information to exclude
+147,Canterbury,Macadamia,Suitable - already grown
+148,Canterbury,Maize,Unsuitable
+149,Canterbury,Mandarin (Encore),Suitable - already grown
+150,Canterbury,Mandarin (Satsuma),Suitable - already grown
+151,Canterbury,Native Bush,Not enough information to exclude
+152,Canterbury,Native regen (Placeholder),Not enough information to exclude
+153,Canterbury,Nectarine,Suitable - already grown
+154,Canterbury,Onion,Suitable - already grown
+155,Canterbury,Orange (Navel),Suitable - already grown
+156,Canterbury,Orange (Valencia),Suitable - already grown
+157,Canterbury,Pea,Not enough information to exclude
+158,Canterbury,Peach,Suitable - already grown
+159,Canterbury,Potato (Fresh Potato),Suitable - already grown
+160,Canterbury,Potato (Process Potato),Suitable - already grown
+161,Canterbury,Potato (Seed Potato),Not enough information to exclude
+162,Canterbury,Potato (Summer Potato),Not enough information to exclude
+163,Canterbury,Ryegrass Seed,Not enough information to exclude
+164,Canterbury,Sheep/beef,Not enough information to exclude
+165,Canterbury,Spinach,Not enough information to exclude
+166,Canterbury,Squash,Suitable - already grown
+167,Canterbury,Sweetcorn,Not enough information to exclude
+168,Canterbury,Tomato,Not enough information to exclude
+169,Canterbury,Truffle (Placeholder),Not enough information to exclude
+170,Canterbury,Vining Pea,Suitable - already grown
+171,Canterbury,Wheat,Suitable - WWO
+172,Gisborne,Apple,Suitable - already grown
+173,Gisborne,Apricot,Suitable - already grown
+174,Gisborne,Arable Crop,Not enough information to exclude
+175,Gisborne,Avocado,Suitable - already grown
+176,Gisborne,Barley,Not enough information to exclude
+177,Gisborne,Barley (grain),Not enough information to exclude
+178,Gisborne,Beetroot,Not enough information to exclude
+179,Gisborne,Blueberry,Suitable - already grown
+180,Gisborne,Blueberry (HyperFarm),Not enough information to exclude
+181,Gisborne,Broccoli,Not enough information to exclude
+182,Gisborne,Cabbage,Not enough information to exclude
+183,Gisborne,Carrot,Not enough information to exclude
+184,Gisborne,Cauliflower,Not enough information to exclude
+185,Gisborne,Cherry (CL),Suitable - already grown
+186,Gisborne,Cherry (HyperFarm),Not enough information to exclude
+187,Gisborne,Cherry (UFO),Suitable - already grown
+188,Gisborne,Chestnut (Placeholder),Not enough information to exclude
+189,Gisborne,Commercial Forest,Not enough information to exclude
+190,Gisborne,Dairy,Not enough information to exclude
+191,Gisborne,Dairy Goat,Not enough information to exclude
+192,Gisborne,Field Pea,Not enough information to exclude
+193,Gisborne,Forage Oat,Not enough information to exclude
+194,Gisborne,Grape,Suitable - already grown
+195,Gisborne,Honey-Manuka (Placeholder),Not enough information to exclude
+196,Gisborne,Hops,Suitable - already grown
+197,Gisborne,Kale,Not enough information to exclude
+198,Gisborne,Kiwifruit (Gold),Suitable - already grown
+199,Gisborne,Kiwifruit (Green),Suitable - already grown
+200,Gisborne,Kiwifruit (HyperFarm),Not enough information to exclude
+201,Gisborne,Lemon (Meyer),Suitable - already grown
+202,Gisborne,Lemon (Yen Ben),Suitable - already grown
+203,Gisborne,Lettuce,Not enough information to exclude
+204,Gisborne,Macadamia,Suitable - already grown
+205,Gisborne,Maize,Suitable - WWO
+206,Gisborne,Mandarin (Encore),Suitable - already grown
+207,Gisborne,Mandarin (Satsuma),Suitable - already grown
+208,Gisborne,Native Bush,Not enough information to exclude
+209,Gisborne,Native regen (Placeholder),Not enough information to exclude
+210,Gisborne,Nectarine,Suitable - already grown
+211,Gisborne,Onion,Suitable - already grown
+212,Gisborne,Orange (Navel),Suitable - already grown
+213,Gisborne,Orange (Valencia),Suitable - already grown
+214,Gisborne,Pea,Not enough information to exclude
+215,Gisborne,Peach,Suitable - already grown
+216,Gisborne,Potato (Fresh Potato),Unsuitable
+217,Gisborne,Potato (Process Potato),Unsuitable
+218,Gisborne,Potato (Seed Potato),Not enough information to exclude
+219,Gisborne,Potato (Summer Potato),Not enough information to exclude
+220,Gisborne,Ryegrass Seed,Not enough information to exclude
+221,Gisborne,Sheep/beef,Not enough information to exclude
+222,Gisborne,Spinach,Not enough information to exclude
+223,Gisborne,Squash,Suitable - already grown
+224,Gisborne,Sweetcorn,Not enough information to exclude
+225,Gisborne,Tomato,Not enough information to exclude
+226,Gisborne,Truffle (Placeholder),Not enough information to exclude
+227,Gisborne,Vining Pea,Suitable - WWO
+228,Gisborne,Wheat,Suitable - WWO
+229,Hawke's Bay,Apple,Suitable - already grown
+230,Hawke's Bay,Apricot,Suitable - already grown
+231,Hawke's Bay,Arable Crop,Not enough information to exclude
+232,Hawke's Bay,Avocado,Suitable - already grown
+233,Hawke's Bay,Barley,Not enough information to exclude
+234,Hawke's Bay,Barley (grain),Not enough information to exclude
+235,Hawke's Bay,Beetroot,Not enough information to exclude
+236,Hawke's Bay,Blueberry,Suitable - already grown
+237,Hawke's Bay,Blueberry (HyperFarm),Not enough information to exclude
+238,Hawke's Bay,Broccoli,Not enough information to exclude
+239,Hawke's Bay,Cabbage,Not enough information to exclude
+240,Hawke's Bay,Carrot,Not enough information to exclude
+241,Hawke's Bay,Cauliflower,Not enough information to exclude
+242,Hawke's Bay,Cherry (CL),Suitable - already grown
+243,Hawke's Bay,Cherry (HyperFarm),Not enough information to exclude
+244,Hawke's Bay,Cherry (UFO),Suitable - already grown
+245,Hawke's Bay,Chestnut (Placeholder),Not enough information to exclude
+246,Hawke's Bay,Commercial Forest,Not enough information to exclude
+247,Hawke's Bay,Dairy,Not enough information to exclude
+248,Hawke's Bay,Dairy Goat,Not enough information to exclude
+249,Hawke's Bay,Field Pea,Suitable - already grown
+250,Hawke's Bay,Forage Oat,Not enough information to exclude
+251,Hawke's Bay,Grape,Suitable - already grown
+252,Hawke's Bay,Honey-Manuka (Placeholder),Not enough information to exclude
+253,Hawke's Bay,Hops,Suitable - already grown
+254,Hawke's Bay,Kale,Not enough information to exclude
+255,Hawke's Bay,Kiwifruit (Gold),Suitable - already grown
+256,Hawke's Bay,Kiwifruit (Green),Suitable - already grown
+257,Hawke's Bay,Kiwifruit (HyperFarm),Not enough information to exclude
+258,Hawke's Bay,Lemon (Meyer),Suitable - already grown
+259,Hawke's Bay,Lemon (Yen Ben),Suitable - already grown
+260,Hawke's Bay,Lettuce,Not enough information to exclude
+261,Hawke's Bay,Macadamia,Suitable - already grown
+262,Hawke's Bay,Maize,Suitable - WWO
+263,Hawke's Bay,Mandarin (Encore),Suitable - already grown
+264,Hawke's Bay,Mandarin (Satsuma),Suitable - already grown
+265,Hawke's Bay,Native Bush,Not enough information to exclude
+266,Hawke's Bay,Native regen (Placeholder),Not enough information to exclude
+267,Hawke's Bay,Nectarine,Suitable - already grown
+268,Hawke's Bay,Onion,Suitable - already grown
+269,Hawke's Bay,Orange (Navel),Suitable - already grown
+270,Hawke's Bay,Orange (Valencia),Suitable - already grown
+271,Hawke's Bay,Pea,Not enough information to exclude
+272,Hawke's Bay,Peach,Suitable - already grown
+273,Hawke's Bay,Potato (Fresh Potato),Suitable - already grown
+274,Hawke's Bay,Potato (Process Potato),Suitable - already grown
+275,Hawke's Bay,Potato (Seed Potato),Not enough information to exclude
+276,Hawke's Bay,Potato (Summer Potato),Not enough information to exclude
+277,Hawke's Bay,Ryegrass Seed,Not enough information to exclude
+278,Hawke's Bay,Sheep/beef,Not enough information to exclude
+279,Hawke's Bay,Spinach,Not enough information to exclude
+280,Hawke's Bay,Squash,Suitable - already grown
+281,Hawke's Bay,Sweetcorn,Not enough information to exclude
+282,Hawke's Bay,Tomato,Not enough information to exclude
+283,Hawke's Bay,Truffle (Placeholder),Not enough information to exclude
+284,Hawke's Bay,Vining Pea,Suitable - already grown
+285,Hawke's Bay,Wheat,Suitable - WWO
+286,Manawatu-Whanganui,Apple,Not enough information to exclude
+287,Manawatu-Whanganui,Apricot,Not enough information to exclude
+288,Manawatu-Whanganui,Arable Crop,Not enough information to exclude
+289,Manawatu-Whanganui,Avocado,Unsuitable
+290,Manawatu-Whanganui,Barley,Not enough information to exclude
+291,Manawatu-Whanganui,Barley (grain),Not enough information to exclude
+292,Manawatu-Whanganui,Beetroot,Suitable - already grown
+293,Manawatu-Whanganui,Blueberry,Suitable - already grown
+294,Manawatu-Whanganui,Blueberry (HyperFarm),Not enough information to exclude
+295,Manawatu-Whanganui,Broccoli,Not enough information to exclude
+296,Manawatu-Whanganui,Cabbage,Not enough information to exclude
+297,Manawatu-Whanganui,Carrot,Not enough information to exclude
+298,Manawatu-Whanganui,Cauliflower,Not enough information to exclude
+299,Manawatu-Whanganui,Cherry (CL),Suitable - WWO
+300,Manawatu-Whanganui,Cherry (HyperFarm),Not enough information to exclude
+301,Manawatu-Whanganui,Cherry (UFO),Suitable - WWO
+302,Manawatu-Whanganui,Chestnut (Placeholder),Not enough information to exclude
+303,Manawatu-Whanganui,Commercial Forest,Not enough information to exclude
+304,Manawatu-Whanganui,Dairy,Not enough information to exclude
+305,Manawatu-Whanganui,Dairy Goat,Not enough information to exclude
+306,Manawatu-Whanganui,Field Pea,Not enough information to exclude
+307,Manawatu-Whanganui,Forage Oat,Not enough information to exclude
+308,Manawatu-Whanganui,Grape,Suitable - already grown
+309,Manawatu-Whanganui,Honey-Manuka (Placeholder),Not enough information to exclude
+310,Manawatu-Whanganui,Hops,Not enough information to exclude
+311,Manawatu-Whanganui,Kale,Not enough information to exclude
+312,Manawatu-Whanganui,Kiwifruit (Gold),Suitable - WWO
+313,Manawatu-Whanganui,Kiwifruit (Green),Suitable - WWO
+314,Manawatu-Whanganui,Kiwifruit (HyperFarm),Not enough information to exclude
+315,Manawatu-Whanganui,Lemon (Meyer),Not enough information to exclude
+316,Manawatu-Whanganui,Lemon (Yen Ben),Not enough information to exclude
+317,Manawatu-Whanganui,Lettuce,Not enough information to exclude
+318,Manawatu-Whanganui,Macadamia,Not enough information to exclude
+319,Manawatu-Whanganui,Maize,Suitable - WWO
+320,Manawatu-Whanganui,Mandarin (Encore),Not enough information to exclude
+321,Manawatu-Whanganui,Mandarin (Satsuma),Not enough information to exclude
+322,Manawatu-Whanganui,Native Bush,Not enough information to exclude
+323,Manawatu-Whanganui,Native regen (Placeholder),Not enough information to exclude
+324,Manawatu-Whanganui,Nectarine,Not enough information to exclude
+325,Manawatu-Whanganui,Onion,Suitable - already grown
+326,Manawatu-Whanganui,Orange (Navel),Not enough information to exclude
+327,Manawatu-Whanganui,Orange (Valencia),Not enough information to exclude
+328,Manawatu-Whanganui,Pea,Not enough information to exclude
+329,Manawatu-Whanganui,Peach,Not enough information to exclude
+330,Manawatu-Whanganui,Potato (Fresh Potato),Suitable - already grown
+331,Manawatu-Whanganui,Potato (Process Potato),Suitable - already grown
+332,Manawatu-Whanganui,Potato (Seed Potato),Not enough information to exclude
+333,Manawatu-Whanganui,Potato (Summer Potato),Not enough information to exclude
+334,Manawatu-Whanganui,Ryegrass Seed,Not enough information to exclude
+335,Manawatu-Whanganui,Sheep/beef,Not enough information to exclude
+336,Manawatu-Whanganui,Spinach,Not enough information to exclude
+337,Manawatu-Whanganui,Squash,Suitable - already grown
+338,Manawatu-Whanganui,Sweetcorn,Not enough information to exclude
+339,Manawatu-Whanganui,Tomato,Not enough information to exclude
+340,Manawatu-Whanganui,Truffle (Placeholder),Not enough information to exclude
+341,Manawatu-Whanganui,Vining Pea,Suitable - already grown
+342,Manawatu-Whanganui,Wheat,Suitable - WWO
+343,Marlborough,Apple,Suitable - already grown
+344,Marlborough,Apricot,Suitable - already grown
+345,Marlborough,Arable Crop,Not enough information to exclude
+346,Marlborough,Avocado,Unsuitable
+347,Marlborough,Barley,Not enough information to exclude
+348,Marlborough,Barley (grain),Not enough information to exclude
+349,Marlborough,Beetroot,Not enough information to exclude
+350,Marlborough,Blueberry,Suitable - already grown
+351,Marlborough,Blueberry (HyperFarm),Not enough information to exclude
+352,Marlborough,Broccoli,Not enough information to exclude
+353,Marlborough,Cabbage,Not enough information to exclude
+354,Marlborough,Carrot,Not enough information to exclude
+355,Marlborough,Cauliflower,Not enough information to exclude
+356,Marlborough,Cherry (CL),Suitable - already grown
+357,Marlborough,Cherry (HyperFarm),Not enough information to exclude
+358,Marlborough,Cherry (UFO),Suitable - already grown
+359,Marlborough,Chestnut (Placeholder),Not enough information to exclude
+360,Marlborough,Commercial Forest,Not enough information to exclude
+361,Marlborough,Dairy,Not enough information to exclude
+362,Marlborough,Dairy Goat,Not enough information to exclude
+363,Marlborough,Field Pea,Suitable - already grown
+364,Marlborough,Forage Oat,Not enough information to exclude
+365,Marlborough,Grape,Suitable - already grown
+366,Marlborough,Honey-Manuka (Placeholder),Not enough information to exclude
+367,Marlborough,Hops,Suitable - already grown
+368,Marlborough,Kale,Not enough information to exclude
+369,Marlborough,Kiwifruit (Gold),Suitable - already grown
+370,Marlborough,Kiwifruit (Green),Suitable - already grown
+371,Marlborough,Kiwifruit (HyperFarm),Not enough information to exclude
+372,Marlborough,Lemon (Meyer),Suitable - already grown
+373,Marlborough,Lemon (Yen Ben),Suitable - already grown
+374,Marlborough,Lettuce,Not enough information to exclude
+375,Marlborough,Macadamia,Suitable - already grown
+376,Marlborough,Maize,Unsuitable
+377,Marlborough,Mandarin (Encore),Suitable - already grown
+378,Marlborough,Mandarin (Satsuma),Suitable - already grown
+379,Marlborough,Native Bush,Not enough information to exclude
+380,Marlborough,Native regen (Placeholder),Not enough information to exclude
+381,Marlborough,Nectarine,Suitable - already grown
+382,Marlborough,Onion,Suitable - already grown
+383,Marlborough,Orange (Navel),Suitable - already grown
+384,Marlborough,Orange (Valencia),Suitable - already grown
+385,Marlborough,Pea,Not enough information to exclude
+386,Marlborough,Peach,Suitable - already grown
+387,Marlborough,Potato (Fresh Potato),Suitable - already grown
+388,Marlborough,Potato (Process Potato),Suitable - already grown
+389,Marlborough,Potato (Seed Potato),Not enough information to exclude
+390,Marlborough,Potato (Summer Potato),Not enough information to exclude
+391,Marlborough,Ryegrass Seed,Not enough information to exclude
+392,Marlborough,Sheep/beef,Not enough information to exclude
+393,Marlborough,Spinach,Not enough information to exclude
+394,Marlborough,Squash,Not enough information to exclude
+395,Marlborough,Sweetcorn,Not enough information to exclude
+396,Marlborough,Tomato,Not enough information to exclude
+397,Marlborough,Truffle (Placeholder),Not enough information to exclude
+398,Marlborough,Vining Pea,Suitable - already grown
+399,Marlborough,Wheat,Suitable - WWO
+400,Nelson,Apple,Suitable - already grown
+401,Nelson,Apricot,Not enough information to exclude
+402,Nelson,Arable Crop,Not enough information to exclude
+403,Nelson,Avocado,Unsuitable
+404,Nelson,Barley,Not enough information to exclude
+405,Nelson,Barley (grain),Not enough information to exclude
+406,Nelson,Beetroot,Not enough information to exclude
+407,Nelson,Blueberry,Suitable - WWO
+408,Nelson,Blueberry (HyperFarm),Not enough information to exclude
+409,Nelson,Broccoli,Not enough information to exclude
+410,Nelson,Cabbage,Not enough information to exclude
+411,Nelson,Carrot,Not enough information to exclude
+412,Nelson,Cauliflower,Not enough information to exclude
+413,Nelson,Cherry (CL),Suitable - WWO
+414,Nelson,Cherry (HyperFarm),Not enough information to exclude
+415,Nelson,Cherry (UFO),Suitable - WWO
+416,Nelson,Chestnut (Placeholder),Not enough information to exclude
+417,Nelson,Commercial Forest,Not enough information to exclude
+418,Nelson,Dairy,Not enough information to exclude
+419,Nelson,Dairy Goat,Not enough information to exclude
+420,Nelson,Field Pea,Not enough information to exclude
+421,Nelson,Forage Oat,Not enough information to exclude
+422,Nelson,Grape,Suitable - WWO
+423,Nelson,Honey-Manuka (Placeholder),Not enough information to exclude
+424,Nelson,Hops,Not enough information to exclude
+425,Nelson,Kale,Not enough information to exclude
+426,Nelson,Kiwifruit (Gold),Suitable - WWO
+427,Nelson,Kiwifruit (Green),Unsuitable
+428,Nelson,Kiwifruit (HyperFarm),Not enough information to exclude
+429,Nelson,Lemon (Meyer),Not enough information to exclude
+430,Nelson,Lemon (Yen Ben),Not enough information to exclude
+431,Nelson,Lettuce,Not enough information to exclude
+432,Nelson,Macadamia,Not enough information to exclude
+433,Nelson,Maize,Unsuitable
+434,Nelson,Mandarin (Encore),Not enough information to exclude
+435,Nelson,Mandarin (Satsuma),Not enough information to exclude
+436,Nelson,Native Bush,Not enough information to exclude
+437,Nelson,Native regen (Placeholder),Not enough information to exclude
+438,Nelson,Nectarine,Not enough information to exclude
+439,Nelson,Onion,Unsuitable
+440,Nelson,Orange (Navel),Not enough information to exclude
+441,Nelson,Orange (Valencia),Not enough information to exclude
+442,Nelson,Pea,Not enough information to exclude
+443,Nelson,Peach,Not enough information to exclude
+444,Nelson,Potato (Fresh Potato),Suitable - WWO
+445,Nelson,Potato (Process Potato),Suitable - WWO
+446,Nelson,Potato (Seed Potato),Not enough information to exclude
+447,Nelson,Potato (Summer Potato),Not enough information to exclude
+448,Nelson,Ryegrass Seed,Not enough information to exclude
+449,Nelson,Sheep/beef,Not enough information to exclude
+450,Nelson,Spinach,Not enough information to exclude
+451,Nelson,Squash,Not enough information to exclude
+452,Nelson,Sweetcorn,Not enough information to exclude
+453,Nelson,Tomato,Not enough information to exclude
+454,Nelson,Truffle (Placeholder),Not enough information to exclude
+455,Nelson,Vining Pea,Suitable - WWO
+456,Nelson,Wheat,Suitable - WWO
+457,Northland,Apple,Suitable - already grown
+458,Northland,Apricot,Suitable - already grown
+459,Northland,Arable Crop,Not enough information to exclude
+460,Northland,Avocado,Suitable - already grown
+461,Northland,Barley,Not enough information to exclude
+462,Northland,Barley (grain),Not enough information to exclude
+463,Northland,Beetroot,Not enough information to exclude
+464,Northland,Blueberry,Suitable - already grown
+465,Northland,Blueberry (HyperFarm),Not enough information to exclude
+466,Northland,Broccoli,Not enough information to exclude
+467,Northland,Cabbage,Not enough information to exclude
+468,Northland,Carrot,Not enough information to exclude
+469,Northland,Cauliflower,Not enough information to exclude
+470,Northland,Cherry (CL),Suitable - already grown
+471,Northland,Cherry (HyperFarm),Not enough information to exclude
+472,Northland,Cherry (UFO),Suitable - already grown
+473,Northland,Chestnut (Placeholder),Not enough information to exclude
+474,Northland,Commercial Forest,Not enough information to exclude
+475,Northland,Dairy,Not enough information to exclude
+476,Northland,Dairy Goat,Not enough information to exclude
+477,Northland,Field Pea,Not enough information to exclude
+478,Northland,Forage Oat,Not enough information to exclude
+479,Northland,Grape,Suitable - WWO
+480,Northland,Honey-Manuka (Placeholder),Not enough information to exclude
+481,Northland,Hops,Suitable - already grown
+482,Northland,Kale,Not enough information to exclude
+483,Northland,Kiwifruit (Gold),Suitable - already grown
+484,Northland,Kiwifruit (Green),Suitable - already grown
+485,Northland,Kiwifruit (HyperFarm),Not enough information to exclude
+486,Northland,Lemon (Meyer),Suitable - already grown
+487,Northland,Lemon (Yen Ben),Suitable - already grown
+488,Northland,Lettuce,Not enough information to exclude
+489,Northland,Macadamia,Suitable - already grown
+490,Northland,Maize,Suitable - WWO
+491,Northland,Mandarin (Encore),Suitable - already grown
+492,Northland,Mandarin (Satsuma),Suitable - already grown
+493,Northland,Native Bush,Not enough information to exclude
+494,Northland,Native regen (Placeholder),Not enough information to exclude
+495,Northland,Nectarine,Suitable - already grown
+496,Northland,Onion,Suitable - already grown
+497,Northland,Orange (Navel),Suitable - already grown
+498,Northland,Orange (Valencia),Suitable - already grown
+499,Northland,Pea,Not enough information to exclude
+500,Northland,Peach,Suitable - already grown
+501,Northland,Potato (Fresh Potato),Suitable - already grown
+502,Northland,Potato (Process Potato),Suitable - already grown
+503,Northland,Potato (Seed Potato),Not enough information to exclude
+504,Northland,Potato (Summer Potato),Not enough information to exclude
+505,Northland,Ryegrass Seed,Not enough information to exclude
+506,Northland,Sheep/beef,Not enough information to exclude
+507,Northland,Spinach,Not enough information to exclude
+508,Northland,Squash,Suitable - already grown
+509,Northland,Sweetcorn,Not enough information to exclude
+510,Northland,Tomato,Not enough information to exclude
+511,Northland,Truffle (Placeholder),Not enough information to exclude
+512,Northland,Vining Pea,Suitable - WWO
+513,Northland,Wheat,Suitable - WWO
+514,Otago,Apple,Suitable - already grown
+515,Otago,Apricot,Suitable - already grown
+516,Otago,Arable Crop,Not enough information to exclude
+517,Otago,Avocado,Unsuitable
+518,Otago,Barley,Not enough information to exclude
+519,Otago,Barley (grain),Not enough information to exclude
+520,Otago,Beetroot,Not enough information to exclude
+521,Otago,Blueberry,Suitable - already grown
+522,Otago,Blueberry (HyperFarm),Not enough information to exclude
+523,Otago,Broccoli,Not enough information to exclude
+524,Otago,Cabbage,Not enough information to exclude
+525,Otago,Carrot,Not enough information to exclude
+526,Otago,Cauliflower,Not enough information to exclude
+527,Otago,Cherry (CL),Suitable - already grown
+528,Otago,Cherry (HyperFarm),Not enough information to exclude
+529,Otago,Cherry (UFO),Suitable - already grown
+530,Otago,Chestnut (Placeholder),Not enough information to exclude
+531,Otago,Commercial Forest,Not enough information to exclude
+532,Otago,Dairy,Not enough information to exclude
+533,Otago,Dairy Goat,Not enough information to exclude
+534,Otago,Field Pea,Suitable - already grown
+535,Otago,Forage Oat,Not enough information to exclude
+536,Otago,Grape,Suitable - already grown
+537,Otago,Honey-Manuka (Placeholder),Not enough information to exclude
+538,Otago,Hops,Suitable - already grown
+539,Otago,Kale,Not enough information to exclude
+540,Otago,Kiwifruit (Gold),Suitable - already grown
+541,Otago,Kiwifruit (Green),Suitable - already grown
+542,Otago,Kiwifruit (HyperFarm),Not enough information to exclude
+543,Otago,Lemon (Meyer),Not enough information to exclude
+544,Otago,Lemon (Yen Ben),Not enough information to exclude
+545,Otago,Lettuce,Not enough information to exclude
+546,Otago,Macadamia,Suitable - already grown
+547,Otago,Maize,Unsuitable
+548,Otago,Mandarin (Encore),Not enough information to exclude
+549,Otago,Mandarin (Satsuma),Not enough information to exclude
+550,Otago,Native Bush,Not enough information to exclude
+551,Otago,Native regen (Placeholder),Not enough information to exclude
+552,Otago,Nectarine,Suitable - already grown
+553,Otago,Onion,Suitable - already grown
+554,Otago,Orange (Navel),Not enough information to exclude
+555,Otago,Orange (Valencia),Not enough information to exclude
+556,Otago,Pea,Not enough information to exclude
+557,Otago,Peach,Suitable - already grown
+558,Otago,Potato (Fresh Potato),Suitable - already grown
+559,Otago,Potato (Process Potato),Suitable - already grown
+560,Otago,Potato (Seed Potato),Not enough information to exclude
+561,Otago,Potato (Summer Potato),Not enough information to exclude
+562,Otago,Ryegrass Seed,Not enough information to exclude
+563,Otago,Sheep/beef,Not enough information to exclude
+564,Otago,Spinach,Not enough information to exclude
+565,Otago,Squash,Not enough information to exclude
+566,Otago,Sweetcorn,Not enough information to exclude
+567,Otago,Tomato,Not enough information to exclude
+568,Otago,Truffle (Placeholder),Not enough information to exclude
+569,Otago,Vining Pea,Suitable - already grown
+570,Otago,Wheat,Suitable - WWO
+571,Southland,Apple,Not enough information to exclude
+572,Southland,Apricot,Suitable - already grown
+573,Southland,Arable Crop,Not enough information to exclude
+574,Southland,Avocado,Unsuitable
+575,Southland,Barley,Not enough information to exclude
+576,Southland,Barley (grain),Not enough information to exclude
+577,Southland,Beetroot,Not enough information to exclude
+578,Southland,Blueberry,Suitable - already grown
+579,Southland,Blueberry (HyperFarm),Not enough information to exclude
+580,Southland,Broccoli,Not enough information to exclude
+581,Southland,Cabbage,Not enough information to exclude
+582,Southland,Carrot,Not enough information to exclude
+583,Southland,Cauliflower,Not enough information to exclude
+584,Southland,Cherry (CL),Suitable - already grown
+585,Southland,Cherry (HyperFarm),Not enough information to exclude
+586,Southland,Cherry (UFO),Suitable - already grown
+587,Southland,Chestnut (Placeholder),Not enough information to exclude
+588,Southland,Commercial Forest,Not enough information to exclude
+589,Southland,Dairy,Not enough information to exclude
+590,Southland,Dairy Goat,Not enough information to exclude
+591,Southland,Field Pea,Not enough information to exclude
+592,Southland,Forage Oat,Not enough information to exclude
+593,Southland,Grape,Unsuitable
+594,Southland,Honey-Manuka (Placeholder),Not enough information to exclude
+595,Southland,Hops,Suitable - already grown
+596,Southland,Kale,Not enough information to exclude
+597,Southland,Kiwifruit (Gold),Suitable - WWO
+598,Southland,Kiwifruit (Green),Unsuitable
+599,Southland,Kiwifruit (HyperFarm),Not enough information to exclude
+600,Southland,Lemon (Meyer),Suitable - already grown
+601,Southland,Lemon (Yen Ben),Suitable - already grown
+602,Southland,Lettuce,Not enough information to exclude
+603,Southland,Macadamia,Suitable - already grown
+604,Southland,Maize,Unsuitable
+605,Southland,Mandarin (Encore),Suitable - already grown
+606,Southland,Mandarin (Satsuma),Suitable - already grown
+607,Southland,Native Bush,Not enough information to exclude
+608,Southland,Native regen (Placeholder),Not enough information to exclude
+609,Southland,Nectarine,Suitable - already grown
+610,Southland,Onion,Suitable - WWO
+611,Southland,Orange (Navel),Suitable - already grown
+612,Southland,Orange (Valencia),Suitable - already grown
+613,Southland,Pea,Not enough information to exclude
+614,Southland,Peach,Suitable - already grown
+615,Southland,Potato (Fresh Potato),Suitable - already grown
+616,Southland,Potato (Process Potato),Suitable - already grown
+617,Southland,Potato (Seed Potato),Not enough information to exclude
+618,Southland,Potato (Summer Potato),Not enough information to exclude
+619,Southland,Ryegrass Seed,Not enough information to exclude
+620,Southland,Sheep/beef,Not enough information to exclude
+621,Southland,Spinach,Not enough information to exclude
+622,Southland,Squash,Not enough information to exclude
+623,Southland,Sweetcorn,Not enough information to exclude
+624,Southland,Tomato,Not enough information to exclude
+625,Southland,Truffle (Placeholder),Not enough information to exclude
+626,Southland,Vining Pea,Suitable - WWO
+627,Southland,Wheat,Suitable - WWO
+628,Taranaki,Apple,Suitable - already grown
+629,Taranaki,Apricot,Suitable - already grown
+630,Taranaki,Arable Crop,Not enough information to exclude
+631,Taranaki,Avocado,Suitable - already grown
+632,Taranaki,Barley,Not enough information to exclude
+633,Taranaki,Barley (grain),Not enough information to exclude
+634,Taranaki,Beetroot,Not enough information to exclude
+635,Taranaki,Blueberry,Suitable - already grown
+636,Taranaki,Blueberry (HyperFarm),Not enough information to exclude
+637,Taranaki,Broccoli,Not enough information to exclude
+638,Taranaki,Cabbage,Not enough information to exclude
+639,Taranaki,Carrot,Not enough information to exclude
+640,Taranaki,Cauliflower,Not enough information to exclude
+641,Taranaki,Cherry (CL),Suitable - already grown
+642,Taranaki,Cherry (HyperFarm),Not enough information to exclude
+643,Taranaki,Cherry (UFO),Suitable - already grown
+644,Taranaki,Chestnut (Placeholder),Not enough information to exclude
+645,Taranaki,Commercial Forest,Not enough information to exclude
+646,Taranaki,Dairy,Not enough information to exclude
+647,Taranaki,Dairy Goat,Not enough information to exclude
+648,Taranaki,Field Pea,Not enough information to exclude
+649,Taranaki,Forage Oat,Not enough information to exclude
+650,Taranaki,Grape,Suitable - WWO
+651,Taranaki,Honey-Manuka (Placeholder),Not enough information to exclude
+652,Taranaki,Hops,Suitable - already grown
+653,Taranaki,Kale,Not enough information to exclude
+654,Taranaki,Kiwifruit (Gold),Suitable - already grown
+655,Taranaki,Kiwifruit (Green),Suitable - already grown
+656,Taranaki,Kiwifruit (HyperFarm),Not enough information to exclude
+657,Taranaki,Lemon (Meyer),Suitable - already grown
+658,Taranaki,Lemon (Yen Ben),Suitable - already grown
+659,Taranaki,Lettuce,Not enough information to exclude
+660,Taranaki,Macadamia,Suitable - already grown
+661,Taranaki,Maize,Suitable - WWO
+662,Taranaki,Mandarin (Encore),Suitable - already grown
+663,Taranaki,Mandarin (Satsuma),Suitable - already grown
+664,Taranaki,Native Bush,Not enough information to exclude
+665,Taranaki,Native regen (Placeholder),Not enough information to exclude
+666,Taranaki,Nectarine,Suitable - already grown
+667,Taranaki,Onion,Suitable - WWO
+668,Taranaki,Orange (Navel),Suitable - already grown
+669,Taranaki,Orange (Valencia),Suitable - already grown
+670,Taranaki,Pea,Not enough information to exclude
+671,Taranaki,Peach,Suitable - already grown
+672,Taranaki,Potato (Fresh Potato),Suitable - already grown
+673,Taranaki,Potato (Process Potato),Suitable - already grown
+674,Taranaki,Potato (Seed Potato),Not enough information to exclude
+675,Taranaki,Potato (Summer Potato),Not enough information to exclude
+676,Taranaki,Ryegrass Seed,Not enough information to exclude
+677,Taranaki,Sheep/beef,Not enough information to exclude
+678,Taranaki,Spinach,Not enough information to exclude
+679,Taranaki,Squash,Not enough information to exclude
+680,Taranaki,Sweetcorn,Not enough information to exclude
+681,Taranaki,Tomato,Not enough information to exclude
+682,Taranaki,Truffle (Placeholder),Not enough information to exclude
+683,Taranaki,Vining Pea,Suitable - WWO
+684,Taranaki,Wheat,Suitable - WWO
+685,Tasman,Apple,Not enough information to exclude
+686,Tasman,Apricot,Not enough information to exclude
+687,Tasman,Arable Crop,Not enough information to exclude
+688,Tasman,Avocado,Unsuitable
+689,Tasman,Barley,Not enough information to exclude
+690,Tasman,Barley (grain),Not enough information to exclude
+691,Tasman,Beetroot,Not enough information to exclude
+692,Tasman,Blueberry,Suitable - WWO
+693,Tasman,Blueberry (HyperFarm),Not enough information to exclude
+694,Tasman,Broccoli,Not enough information to exclude
+695,Tasman,Cabbage,Not enough information to exclude
+696,Tasman,Carrot,Not enough information to exclude
+697,Tasman,Cauliflower,Not enough information to exclude
+698,Tasman,Cherry (CL),Suitable - WWO
+699,Tasman,Cherry (HyperFarm),Not enough information to exclude
+700,Tasman,Cherry (UFO),Suitable - WWO
+701,Tasman,Chestnut (Placeholder),Not enough information to exclude
+702,Tasman,Commercial Forest,Not enough information to exclude
+703,Tasman,Dairy,Not enough information to exclude
+704,Tasman,Dairy Goat,Not enough information to exclude
+705,Tasman,Field Pea,Not enough information to exclude
+706,Tasman,Forage Oat,Not enough information to exclude
+707,Tasman,Grape,Suitable - WWO
+708,Tasman,Honey-Manuka (Placeholder),Not enough information to exclude
+709,Tasman,Hops,Suitable - already grown
+710,Tasman,Kale,Not enough information to exclude
+711,Tasman,Kiwifruit (Gold),Suitable - WWO
+712,Tasman,Kiwifruit (Green),Unsuitable
+713,Tasman,Kiwifruit (HyperFarm),Not enough information to exclude
+714,Tasman,Lemon (Meyer),Not enough information to exclude
+715,Tasman,Lemon (Yen Ben),Not enough information to exclude
+716,Tasman,Lettuce,Not enough information to exclude
+717,Tasman,Macadamia,Not enough information to exclude
+718,Tasman,Maize,Suitable - WWO
+719,Tasman,Mandarin (Encore),Not enough information to exclude
+720,Tasman,Mandarin (Satsuma),Not enough information to exclude
+721,Tasman,Native Bush,Not enough information to exclude
+722,Tasman,Native regen (Placeholder),Not enough information to exclude
+723,Tasman,Nectarine,Not enough information to exclude
+724,Tasman,Onion,Unsuitable
+725,Tasman,Orange (Navel),Not enough information to exclude
+726,Tasman,Orange (Valencia),Not enough information to exclude
+727,Tasman,Pea,Not enough information to exclude
+728,Tasman,Peach,Not enough information to exclude
+729,Tasman,Potato (Fresh Potato),Suitable - WWO
+730,Tasman,Potato (Process Potato),Suitable - WWO
+731,Tasman,Potato (Seed Potato),Not enough information to exclude
+732,Tasman,Potato (Summer Potato),Not enough information to exclude
+733,Tasman,Ryegrass Seed,Not enough information to exclude
+734,Tasman,Sheep/beef,Not enough information to exclude
+735,Tasman,Spinach,Not enough information to exclude
+736,Tasman,Squash,Not enough information to exclude
+737,Tasman,Sweetcorn,Not enough information to exclude
+738,Tasman,Tomato,Not enough information to exclude
+739,Tasman,Truffle (Placeholder),Not enough information to exclude
+740,Tasman,Vining Pea,Suitable - WWO
+741,Tasman,Wheat,Suitable - WWO
+742,Waikato,Apple,Suitable - already grown
+743,Waikato,Apricot,Suitable - already grown
+744,Waikato,Arable Crop,Not enough information to exclude
+745,Waikato,Avocado,Suitable - already grown
+746,Waikato,Barley,Not enough information to exclude
+747,Waikato,Barley (grain),Not enough information to exclude
+748,Waikato,Beetroot,Not enough information to exclude
+749,Waikato,Blueberry,Suitable - already grown
+750,Waikato,Blueberry (HyperFarm),Not enough information to exclude
+751,Waikato,Broccoli,Not enough information to exclude
+752,Waikato,Cabbage,Not enough information to exclude
+753,Waikato,Carrot,Not enough information to exclude
+754,Waikato,Cauliflower,Not enough information to exclude
+755,Waikato,Cherry (CL),Suitable - already grown
+756,Waikato,Cherry (HyperFarm),Not enough information to exclude
+757,Waikato,Cherry (UFO),Suitable - already grown
+758,Waikato,Chestnut (Placeholder),Not enough information to exclude
+759,Waikato,Commercial Forest,Not enough information to exclude
+760,Waikato,Dairy,Not enough information to exclude
+761,Waikato,Dairy Goat,Not enough information to exclude
+762,Waikato,Field Pea,Not enough information to exclude
+763,Waikato,Forage Oat,Not enough information to exclude
+764,Waikato,Grape,Suitable - WWO
+765,Waikato,Honey-Manuka (Placeholder),Not enough information to exclude
+766,Waikato,Hops,Suitable - already grown
+767,Waikato,Kale,Not enough information to exclude
+768,Waikato,Kiwifruit (Gold),Suitable - already grown
+769,Waikato,Kiwifruit (Green),Suitable - already grown
+770,Waikato,Kiwifruit (HyperFarm),Not enough information to exclude
+771,Waikato,Lemon (Meyer),Suitable - already grown
+772,Waikato,Lemon (Yen Ben),Suitable - already grown
+773,Waikato,Lettuce,Not enough information to exclude
+774,Waikato,Macadamia,Suitable - already grown
+775,Waikato,Maize,Suitable - WWO
+776,Waikato,Mandarin (Encore),Suitable - already grown
+777,Waikato,Mandarin (Satsuma),Suitable - already grown
+778,Waikato,Native Bush,Not enough information to exclude
+779,Waikato,Native regen (Placeholder),Not enough information to exclude
+780,Waikato,Nectarine,Suitable - already grown
+781,Waikato,Onion,Suitable - already grown
+782,Waikato,Orange (Navel),Suitable - already grown
+783,Waikato,Orange (Valencia),Suitable - already grown
+784,Waikato,Pea,Not enough information to exclude
+785,Waikato,Peach,Suitable - already grown
+786,Waikato,Potato (Fresh Potato),Suitable - already grown
+787,Waikato,Potato (Process Potato),Suitable - already grown
+788,Waikato,Potato (Seed Potato),Not enough information to exclude
+789,Waikato,Potato (Summer Potato),Not enough information to exclude
+790,Waikato,Ryegrass Seed,Not enough information to exclude
+791,Waikato,Sheep/beef,Not enough information to exclude
+792,Waikato,Spinach,Not enough information to exclude
+793,Waikato,Squash,Suitable - already grown
+794,Waikato,Sweetcorn,Not enough information to exclude
+795,Waikato,Tomato,Not enough information to exclude
+796,Waikato,Truffle (Placeholder),Not enough information to exclude
+797,Waikato,Vining Pea,Suitable - WWO
+798,Waikato,Wheat,Suitable - WWO
+799,Wellington,Apple,Suitable - already grown
+800,Wellington,Apricot,Suitable - already grown
+801,Wellington,Arable Crop,Not enough information to exclude
+802,Wellington,Avocado,Suitable - already grown
+803,Wellington,Barley,Not enough information to exclude
+804,Wellington,Barley (grain),Not enough information to exclude
+805,Wellington,Beetroot,Not enough information to exclude
+806,Wellington,Blueberry,Suitable - already grown
+807,Wellington,Blueberry (HyperFarm),Not enough information to exclude
+808,Wellington,Broccoli,Not enough information to exclude
+809,Wellington,Cabbage,Not enough information to exclude
+810,Wellington,Carrot,Not enough information to exclude
+811,Wellington,Cauliflower,Not enough information to exclude
+812,Wellington,Cherry (CL),Suitable - already grown
+813,Wellington,Cherry (HyperFarm),Not enough information to exclude
+814,Wellington,Cherry (UFO),Suitable - already grown
+815,Wellington,Chestnut (Placeholder),Not enough information to exclude
+816,Wellington,Commercial Forest,Not enough information to exclude
+817,Wellington,Dairy,Not enough information to exclude
+818,Wellington,Dairy Goat,Not enough information to exclude
+819,Wellington,Field Pea,Not enough information to exclude
+820,Wellington,Forage Oat,Not enough information to exclude
+821,Wellington,Grape,Suitable - already grown
+822,Wellington,Honey-Manuka (Placeholder),Not enough information to exclude
+823,Wellington,Hops,Suitable - already grown
+824,Wellington,Kale,Not enough information to exclude
+825,Wellington,Kiwifruit (Gold),Suitable - already grown
+826,Wellington,Kiwifruit (Green),Suitable - already grown
+827,Wellington,Kiwifruit (HyperFarm),Not enough information to exclude
+828,Wellington,Lemon (Meyer),Suitable - already grown
+829,Wellington,Lemon (Yen Ben),Suitable - already grown
+830,Wellington,Lettuce,Not enough information to exclude
+831,Wellington,Macadamia,Suitable - already grown
+832,Wellington,Maize,Suitable - WWO
+833,Wellington,Mandarin (Encore),Suitable - already grown
+834,Wellington,Mandarin (Satsuma),Suitable - already grown
+835,Wellington,Native Bush,Not enough information to exclude
+836,Wellington,Native regen (Placeholder),Not enough information to exclude
+837,Wellington,Nectarine,Suitable - already grown
+838,Wellington,Onion,Suitable - already grown
+839,Wellington,Orange (Navel),Suitable - already grown
+840,Wellington,Orange (Valencia),Suitable - already grown
+841,Wellington,Pea,Not enough information to exclude
+842,Wellington,Peach,Suitable - already grown
+843,Wellington,Potato (Fresh Potato),Suitable - already grown
+844,Wellington,Potato (Process Potato),Suitable - already grown
+845,Wellington,Potato (Seed Potato),Not enough information to exclude
+846,Wellington,Potato (Summer Potato),Not enough information to exclude
+847,Wellington,Ryegrass Seed,Not enough information to exclude
+848,Wellington,Sheep/beef,Not enough information to exclude
+849,Wellington,Spinach,Not enough information to exclude
+850,Wellington,Squash,Suitable - already grown
+851,Wellington,Sweetcorn,Not enough information to exclude
+852,Wellington,Tomato,Not enough information to exclude
+853,Wellington,Truffle (Placeholder),Not enough information to exclude
+854,Wellington,Vining Pea,Suitable - WWO
+855,Wellington,Wheat,Suitable - WWO
+856,West Coast,Apple,Not enough information to exclude
+857,West Coast,Apricot,Suitable - already grown
+858,West Coast,Arable Crop,Not enough information to exclude
+859,West Coast,Avocado,Unsuitable
+860,West Coast,Barley,Not enough information to exclude
+861,West Coast,Barley (grain),Not enough information to exclude
+862,West Coast,Beetroot,Not enough information to exclude
+863,West Coast,Blueberry,Suitable - already grown
+864,West Coast,Blueberry (HyperFarm),Not enough information to exclude
+865,West Coast,Broccoli,Not enough information to exclude
+866,West Coast,Cabbage,Not enough information to exclude
+867,West Coast,Carrot,Not enough information to exclude
+868,West Coast,Cauliflower,Not enough information to exclude
+869,West Coast,Cherry (CL),Suitable - already grown
+870,West Coast,Cherry (HyperFarm),Not enough information to exclude
+871,West Coast,Cherry (UFO),Suitable - already grown
+872,West Coast,Chestnut (Placeholder),Not enough information to exclude
+873,West Coast,Commercial Forest,Not enough information to exclude
+874,West Coast,Dairy,Not enough information to exclude
+875,West Coast,Dairy Goat,Not enough information to exclude
+876,West Coast,Field Pea,Not enough information to exclude
+877,West Coast,Forage Oat,Not enough information to exclude
+878,West Coast,Grape,Unsuitable
+879,West Coast,Honey-Manuka (Placeholder),Not enough information to exclude
+880,West Coast,Hops,Not enough information to exclude
+881,West Coast,Kale,Not enough information to exclude
+882,West Coast,Kiwifruit (Gold),Suitable - WWO
+883,West Coast,Kiwifruit (Green),Unsuitable
+884,West Coast,Kiwifruit (HyperFarm),Not enough information to exclude
+885,West Coast,Lemon (Meyer),Not enough information to exclude
+886,West Coast,Lemon (Yen Ben),Not enough information to exclude
+887,West Coast,Lettuce,Not enough information to exclude
+888,West Coast,Macadamia,Suitable - already grown
+889,West Coast,Maize,Unsuitable
+890,West Coast,Mandarin (Encore),Not enough information to exclude
+891,West Coast,Mandarin (Satsuma),Not enough information to exclude
+892,West Coast,Native Bush,Not enough information to exclude
+893,West Coast,Native regen (Placeholder),Not enough information to exclude
+894,West Coast,Nectarine,Suitable - already grown
+895,West Coast,Onion,Unsuitable
+896,West Coast,Orange (Navel),Not enough information to exclude
+897,West Coast,Orange (Valencia),Not enough information to exclude
+898,West Coast,Pea,Not enough information to exclude
+899,West Coast,Peach,Suitable - already grown
+900,West Coast,Potato (Fresh Potato),Unsuitable
+901,West Coast,Potato (Process Potato),Unsuitable
+902,West Coast,Potato (Seed Potato),Not enough information to exclude
+903,West Coast,Potato (Summer Potato),Not enough information to exclude
+904,West Coast,Ryegrass Seed,Not enough information to exclude
+905,West Coast,Sheep/beef,Not enough information to exclude
+906,West Coast,Spinach,Not enough information to exclude
+907,West Coast,Squash,Not enough information to exclude
+908,West Coast,Sweetcorn,Not enough information to exclude
+909,West Coast,Tomato,Not enough information to exclude
+910,West Coast,Truffle (Placeholder),Not enough information to exclude
+911,West Coast,Vining Pea,Unsuitable
+912,West Coast,Wheat,Suitable - WWO
