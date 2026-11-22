@@ -14,7 +14,7 @@ def layout():
                     html.H3("About the dashboard", style={"font-weight": "600"}),
                     html.P(
                         children=[
-                            "This dashboard is designed to be a tool for land owners, stewards, managers, catchment groups, hapū, and rural professionals to estimate the number of full-time equivalents (FTEs) needed for different land-use scenarios, as well as how this workforce requirement varies seasonally. Additionally, the dashboard can suggest land uses which complement a selected land use(s) to smooth out seasonal variance in workforce requirements. If you happen to find a bug in the dashboard, please let us know via the “Report an issue” button, and we’ll do our best to get it sorted quickly. If you have any further questions about the dashboard, feel free to contact us at ",
+                            "This dashboard is designed to be a tool for land owners, stewards, managers, catchment groups, hapū, and rural professionals to estimate the number of full-time equivalents (FTEs) needed for different land-use scenarios, as well as how this workforce requirement varies seasonally. Additionally, the dashboard can suggest land uses which complement a selected land use(s) to smooth out seasonal variance in workforce requirements. Because it's difficult for all content to be accurate for all contexts, please limit the use of this tool to screening or rough planning purposes. If you happen to find a bug in the dashboard, please let us know via the “Report an issue” button, and we’ll do our best to get it sorted quickly. If you have any further questions about the dashboard, feel free to contact us at ",
                             html.A(
                                 href="mailto:luc@scarlatti.co.nz",
                                 children="luc@scarlatti.co.nz",
@@ -27,6 +27,16 @@ def layout():
                         "This project was made possible by funding from the Our Land and Water National Science Challenge – in particular the project ‘Workforce Implications of Land-Use Change’.\
                                 As such, this tool and its desired outcomes align with Our Land and Water’s vision: that in future New Zealand resembles a diverse ‘mosaic’ of land uses that are more resilient,\
                                 lead to healthier land and water, and provide more income security than today. "
+                    ),
+                    html.P(
+                        [
+                            "This project also benefited from funding and data from Venture Taranaki to incorporate the crops studied in their ",
+                            html.A(
+                                "Branching Out",
+                                href="https://www.venture.org.nz/sector-development/food/branching-out/",
+                            ),
+                            " project. "
+                        ]
                     ),
                     html.Br(),
                     html.A(

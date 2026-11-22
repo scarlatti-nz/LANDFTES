@@ -23,14 +23,15 @@ from email.mime.image import MIMEImage
 import base64
 from email import encoders
 import smtplib
-from email_params import email_params
+
 import plotly
+import os
 
 dash.register_page(__name__, path="/", name="Home", title="Home")
 
 # Read data files
 # Model worker database
-df = pd.read_csv("data/worker_database_8_1_24.csv")
+df = pd.read_csv("data/worker_database.csv")
 
 # Seasonal complements database
 complement = pd.read_csv("data/seasonal_complementarities.csv")
@@ -155,6 +156,13 @@ def subset_to_selections_yearly(df, lus, roles, stages):
     collapsed_to_lu_year = pd.concat([collapsed_to_lu_year, rows])
     collapsed_to_lu_year = collapsed_to_lu_year.sort_values(by="year_since_start")
 
+    # If the filtered data is empty (no rows match the current land-use/role/stage
+    # combination) then return the empty DataFrame early to avoid KeyErrors when
+    # attempting to access row 0 below.  Down-stream logic already checks for an
+    # empty result and will skip further processing when appropriate.
+    if collapsed_to_lu_year.empty:
+        return collapsed_to_lu_year
+
     return collapsed_to_lu_year
 
 
@@ -211,71 +219,50 @@ wages_x_year = {lu: go.Figure() for lu in selected_land_uses}
 
 
 def merge_tasks(tmp):
-    harvest_months = pd.unique(tmp["harvest_month"].dropna()).tolist()
-    planting_months = pd.unique(tmp["planting_month"].dropna()).tolist()
-    if len(harvest_months) > 1:
-        tasklist = ["" for i in range(12)]
-        for h in harvest_months:
-            new_tasklist = tmp.loc[tmp["harvest_month"] == h, "task"]
-            for i in range(12):
-                if new_tasklist.iloc[i] not in tasklist[i]:
-                    if tasklist[i] in new_tasklist.iloc[i]:
-                        tasklist[i] = new_tasklist.iloc[i]
-                    else:
-                        tasklist[i] = tasklist[i] + ", " + new_tasklist.iloc[i]
-        for h in harvest_months:
-            try:
-                tmp.loc[tmp["harvest_month"] == h, "task"] = tasklist
-            except:
-                print("couldn't assign task list")
+    """Merge duplicate task rows so that exactly one row per month remains.
 
-    elif len(planting_months) > 1:
-        tasklist = ["" for i in range(12)]
-        for h in planting_months:
-            new_tasklist = tmp.loc[tmp["planting_month"] == h, "task"]
-            for i in range(12):
-                if new_tasklist.iloc[i] not in tasklist[i]:
-                    if tasklist[i] in new_tasklist.iloc[i]:
-                        tasklist[i] = new_tasklist.iloc[i]
-                    else:
-                        tasklist[i] = tasklist[i] + ", " + new_tasklist.iloc[i]
-        tasklist = [
-            t.replace("No task data, ", "").replace(", No task data", "")
-            for t in tasklist
-        ]
-        for h in planting_months:
-            try:
-                tmp.loc[tmp["planting_month"] == h, "task"] = tasklist
-            except:
-                print("couldn't assign task list")
-    elif len(tmp) > 12:
-        print(
-            f"WARNING: NONUNIQUE TASK-STAGE COMBINATION FOR LAND USE: {tmp['land_use'].iloc[0]}"
-        )
-        # Very hacky fix, shouldn't ever have to run, hence above warning.
-        tmp.sort_values(by=["task", "month_of_year"], inplace=True)
-        tmp["itercol"] = 0
-        iters = int(len(tmp) / 12)
-        tasklist = ["" for i in range(12)]
+    Any duplicates for the same month (e.g. because multiple task labels are
+    recorded for a single crop/role/stage combination) are resolved by:
 
-        for i in range(iters):
-            new_tasklist = tmp.iloc[i * 12 : (i + 1) * 12]["task"]
-            tmp["itercol"] += [
-                i if j in range(i * 12, (i + 1) * 12) else 0 for j in range(len(tmp))
-            ]
-            for j in range(12):
-                if new_tasklist.iloc[j] not in tasklist[j]:
-                    if tasklist[j] in new_tasklist.iloc[j]:
-                        tasklist[j] = new_tasklist.iloc[j]
-                    else:
-                        tasklist[j] = tasklist[j] + ", " + new_tasklist.iloc[j]
-        tasklist = [
-            t.replace("No task data, ", "").replace(", No task data", "")
-            for t in tasklist
+    1.  Concatenating the unique task strings (comma-separated).
+    2.  Summing the associated labour requirement (``hours_ha``) so that the
+        total amount of work is preserved.
+    3.  Copying the first value for all other identifying columns (role,
+        land-use, stage, management category, etc.).
+    """
+
+    if tmp.empty:
+        return tmp
+
+    keep_first = [
+        c
+        for c in tmp.columns
+        if c
+        not in [
+            "task",
+            "hours_ha",
+            "planting_month",
+            "harvest_month",
+            "default_planting_month",
+            "default_harvest_month",
         ]
-        for i in range(iters):
-            tmp.loc[tmp["itercol"] == i, "task"] = tasklist
-        tmp.drop("itercol", axis=1, inplace=True)
+    ]
+
+    agg_dict = {col: "first" for col in keep_first}
+    agg_dict.update(
+        {
+            "task": lambda x: ", ".join(pd.unique(x.dropna())),
+            "hours_ha": "sum",
+        }
+    )
+
+    tmp = (
+        tmp.groupby("month_of_year", as_index=False)
+        .agg(agg_dict)
+        .sort_values("month_of_year")
+        .reset_index(drop=True)
+    )
+
     return tmp
 
 
@@ -825,7 +812,7 @@ def layout():
                             stages_checklist,
                             dbc.Tooltip(
                                 html.Span(
-                                    "Crops have reached full production",
+                                    "Crops have reached full production or are in the final year of a continuous cropping cycle",
                                     id="established_text",
                                 ),
                                 target="established-option",
@@ -1025,7 +1012,7 @@ def layout():
                                                         "value": "grown",
                                                     },
                                                     {
-                                                        "label": "Already grown in selected region, or suitable for the region based on modelling",
+                                                        "label": "Already grown in selected region, or suitable for the region based on modelling or expert opinion",
                                                         "value": "suitable",
                                                     },
                                                     {
@@ -1214,22 +1201,24 @@ def create_planting_table_row(
     valid_months = pd.unique(
         df.loc[df["land_use"] == lu, "planting_month"].dropna()
     ).tolist()
-    planting_start_default = int(
-        min(
-            df.loc[
-                (df["land_use"] == lu) & (df["default_planting_month"] == 1),
-                "planting_month",
-            ].dropna()
-        )
+    # If no planting months are recorded for this land use, fall back to the full 12-month range
+    if not valid_months:
+        valid_months = list(range(1, 13))
+
+    planting_months = (
+        df.loc[
+            (df["land_use"] == lu) & (df["default_planting_month"] == 1),
+            "planting_month",
+        ]
+        .dropna()
     )
-    planting_end_default = int(
-        max(
-            df.loc[
-                (df["land_use"] == lu) & (df["default_planting_month"] == 1),
-                "planting_month",
-            ].dropna()
-        )
-    )
+
+    if planting_months.empty:
+        # Default to January–December when no explicit default planting window exists
+        planting_start_default, planting_end_default = 1, 12
+    else:
+        planting_start_default = int(planting_months.min())
+        planting_end_default = int(planting_months.max())
     plant_start_dd = dcc.Dropdown(
         id="start-{}".format(lu),
         options=[item for item in full_month_dd if item["value"] in valid_months],
@@ -1809,17 +1798,45 @@ def yearly_hours(df, new_stages, roles, land_uses_and_areas, graph_type):
     ylim = 0
     only_one = len(land_uses_and_areas) == 1
     sum_meta = [["FTEs - " + role, 0] for role in roles]
-    for k, lu in enumerate(land_uses_and_areas):
+    for k, (lu, lu_area, start_mth, end_mth) in enumerate(land_uses_and_areas):
         meta = []
-        # if clicks is not None and clicks > 0:
-
         hours = [0 for i in range(30)]
+
+        # Determine whether this land use is defined by planting or harvest window
+        base_df = df.loc[df["land_use"] == lu]
+
+        if base_df["planting_month"].notna().any():
+            month_col = "planting_month"
+        elif base_df["harvest_month"].notna().any():
+            month_col = "harvest_month"
+        else:
+            month_col = None
+
+        if month_col is None:
+            df_lu_window = base_df.copy()
+        else:
+            if end_mth >= start_mth:
+                df_lu_window = base_df.loc[
+                    (base_df[month_col] >= start_mth) & (base_df[month_col] <= end_mth)
+                ]
+            else:  # window wraps year end
+                df_lu_window = base_df.loc[
+                    (base_df[month_col] >= start_mth) | (base_df[month_col] <= end_mth)
+                ]
+
+        collapsed_to_year_lu = subset_to_selections_yearly(
+            df_lu_window, [lu], roles, new_stages
+        )
+        if collapsed_to_year_lu.empty:
+            continue
+
         for r, role in enumerate(roles):
             tmp = collapsed_to_year_lu.loc[
-                (collapsed_to_year_lu["land_use"] == lu[0])
-                & (collapsed_to_year_lu["role"] == role)
+                (collapsed_to_year_lu["role"] == role)
             ].copy()
-            tmp["hours_total"] = tmp["hours_ha"] * lu[1]
+
+            tmp["hours_total"] = tmp["hours_ha"] * lu_area
+
             if role == "manager" and (
                 tmp["management_category"].iloc[0] == 3
                 or tmp["management_category"].iloc[0] == 4
@@ -1834,19 +1851,14 @@ def yearly_hours(df, new_stages, roles, land_uses_and_areas, graph_type):
                 if k == 0
                 else [sum(d) for d in zip(sum_meta[r][1], tmp.hours_total)]
             )
-            # tmp = create_hours_by_month_for_one_land_use(
-            # collapsed_to_year_lu, lu[0], lu[1], role
-            # )
             for i in range(0, 30, 1):
                 try:
                     hours_to_add = tmp.loc[
                         tmp["year_since_start"] == i, "hours_total"
                     ].iloc[0]
-                except:
+                except IndexError:
                     hours_to_add = 0
-                hours[
-                    i
-                ] += hours_to_add  # tmp.loc[tmp["year_since_start"]==i,"hours_total"].iloc[0]
+                hours[i] += hours_to_add
 
         ylim = max(ylim, max(hours))
         sum_hours = [
@@ -1854,7 +1866,7 @@ def yearly_hours(df, new_stages, roles, land_uses_and_areas, graph_type):
         ]
         if tmp["management_category"].iloc[0] == 2:
             meta = [("FTEs - managers and workers", hours)]
-        traces = triplicate_traces(traces, tmp.year_since_start, hours, lu[0], k, meta)
+        traces = triplicate_traces(traces, tmp.year_since_start, hours, lu, k, meta)
 
     if graph_type == "Total across land uses":
         traces = triplicate_traces(
@@ -1868,6 +1880,13 @@ def yearly_hours(df, new_stages, roles, land_uses_and_areas, graph_type):
 
 
 def space_trace(traces, year_type):
+    # Handle the edge-case where no traces were produced (e.g. user cleared all
+    # selected land uses).  Down-stream callers expect a 3-tuple, so return the
+    # empty list along with zeros for the other two values to avoid a
+    # ValueError from max() on an empty sequence.
+    if not traces:
+        return traces, 0, 0
+
     lmax = max([len(trace["name"]) for trace in traces])
     ymax = 0
     dupes = []
@@ -2027,7 +2046,7 @@ def update_graph(
         land_area_ha = land_use_states[land_uses.tolist().index(lu)]
         start_month = start_months[land_uses.tolist().index(lu)]
         end_month = end_months[land_uses.tolist().index(lu)]
-        land_uses_and_areas.append((lu, land_area_ha))
+        land_uses_and_areas.append((lu, land_area_ha, start_month, end_month))
         hours = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
         for role in roles:
             if start_month and end_month:
@@ -2409,9 +2428,12 @@ def report_state_and_feedback(
     dbstate += "suggest button clicks: " + to_str(suggest_button_clicks) + "\n"
 
     msg = MIMEMultipart()
+    email_sender = os.getenv("EMAIL_SENDER")
+    email_password = os.getenv("EMAIL_PASSWORD")
+
     email_receiver = "luc@scarlatti.co.nz"
     msg["Subject"] = "LUC dashboard feedback"
-    msg["From"] = email_params["email"]
+    msg["From"] = email_sender
     msg["To"] = email_receiver  # receiver email
     msg.attach(
         MIMEText(
@@ -2425,10 +2447,10 @@ def report_state_and_feedback(
         image = base64.b64decode(image)
 
         msg.attach(MIMEImage(image))
-    server = smtplib.SMTP("smtp-mail.outlook.com", 587)
+    server = smtplib.SMTP("live.smtp.mailtrap.io", 587)
     server.starttls()  # encrypted connection
-    server.login(email_params["email"], email_params["password"])
-    server.sendmail(email_params["email"], email_receiver, msg.as_string())
+    server.login('api', email_password)
+    server.sendmail(email_sender, email_receiver, msg.as_string())
     server.quit()
     return n1 + 1
 

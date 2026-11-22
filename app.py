@@ -33,11 +33,13 @@ from email.mime.image import MIMEImage
 import base64
 from email import encoders
 import smtplib
-from email_params import email_params
 import pages.main as main
 import pages.about as about
 # from tabs import layout as tabs_layout
 from elements.header import layout as header_layout
+from dotenv import load_dotenv
+
+load_dotenv()
 
 # from app import app
 # Initiate App
